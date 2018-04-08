@@ -1,26 +1,17 @@
+test
+run
+cacheLocal
+publishLocal
+compile
+publishLocal
+vim /git/server-interpreter/target/scala-2.12/ivy-0.0.1-SNAPSHOT.xml
+run 
+run
+publishLocal
+run 
+compile
+run
+compile
 run
 run 
-show compile:dependencyClasspath
-run 
-run
-   
-run
-show classpathTypes
-run
-run 
-project
-projects
-run
-projects
-project compiker
-project compiler
-projects compiler
-project compiler
-run
-project complie
-project compile
-project compiler
-run
-projects
-project compiler
 run

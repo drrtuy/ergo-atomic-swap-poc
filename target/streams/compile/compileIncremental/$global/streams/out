@@ -1,1 +1,33 @@
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/git/server-interpreter/src/main/scala/compiler/SigmaCompiler.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(compiler.SigmaCompiler, compiler.UpperComp)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(compiler.SigmaCompiler, compiler.UpperComp)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/git/server-interpreter/src/main/scala/compiler/SigmaCompiler.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /git/server-interpreter/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.4:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.4:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 7135f953 for Scala compiler version 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/root/.sbt/boot/scala-2.12.4/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/git/server-interpreter/target/scala-2.12/classes:/root/.ivy2/cache/org.scorexfoundation/scrypto_2.12/jars/scrypto_2.12-2.0.5.jar:/root/.ivy2/cache/org.rudogma/supertagged_2.12/jars/supertagged_2.12-1.4.jar:/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar:/root/.ivy2/cache/org.whispersystems/curve25519-java/jars/curve25519-java-0.4.1.jar:/root/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/jars/bcprov-jdk15on-1.59.jar:/root/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.4.20.jar:/root/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar:/root/.ivy2/cache/org.bitbucket.inkytonik.kiama/kiama_2.12/jars/kiama_2.12-2.1.0.jar:/root/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-3.0.2.jar:/root/.ivy2/cache/com.google.guava/guava/bundles/guava-21.0.jar:/root/.ivy2/cache/org.bitbucket.inkytonik.dsinfo/dsinfo_2.12/jars/dsinfo_2.12-0.4.0.jar:/root/.sbt/boot/scala-2.12.4/lib/scala-reflect.jar:/root/.ivy2/cache/org.bitbucket.inkytonik.dsprofile/dsprofile_2.12/jars/dsprofile_2.12-0.4.0.jar:/root/.ivy2/cache/org.rogach/scallop_2.12/jars/scallop_2.12-2.1.1.jar:/root/.ivy2/cache/jline/jline/jars/jline-2.14.3.jar:/root/.ivy2/cache/com.lihaoyi/fastparse_2.12/jars/fastparse_2.12-1.0.0.jar:/root/.ivy2/cache/com.lihaoyi/fastparse-utils_2.12/jars/fastparse-utils_2.12-1.0.0.jar:/root/.ivy2/cache/com.lihaoyi/sourcecode_2.12/bundles/sourcecode_2.12-0.1.4.jar:/root/.ivy2/local/org.scorexplatform/sigma-state_2.12/0.0.1/jars/sigma-state_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.655030547 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
